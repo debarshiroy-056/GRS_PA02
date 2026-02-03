@@ -40,6 +40,7 @@ Note: sudo access may be required for perf to read hardware counters.
 sudo sysctl -w kernel.perf_event_paranoid=-1
 
 # Run experiments
+chmod +x MT25178_Part_C_shell.sh
 ./MT25178_Part_C_shell.sh
 
 # 3. Generate Plots
